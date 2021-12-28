@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class EligibilityScreenProvider extends ChangeNotifier {
-  String _message = '';
+  String _message = 'you have not input any date';
   bool _isEligible= false;
 
   String get message => _message;
